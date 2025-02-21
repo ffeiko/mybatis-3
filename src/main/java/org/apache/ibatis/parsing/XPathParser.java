@@ -43,7 +43,13 @@ import org.xml.sax.SAXParseException;
 /**
  * @author Clinton Begin
  * @author Kazuki Shimizu
+ *
+ * 是一个功能强大的工具类，用于解析和处理 XML 文件。它通过 XPath 表达式提供灵活的查询能力，并支持变量替换、
+ * 错误处理和多种数据类型的返回值。这个类是 MyBatis 框架中处理 XML 配置文件的核心组件之一。
+ *
  */
+
+
 public class XPathParser {
 
   private final Document document;
